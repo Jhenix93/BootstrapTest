@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Meta Tags-->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--Title-->
+  <title>Bootstrap Demo</title>
+
+  <!--Bootcamp CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="style.css">
+
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!--Bootstrap Icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+</head>
+
+<body class="bodyy">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-lg-3 fixed-top nav3000">
+    <div class="container">
+      <a class="navbar-brand fs-2" href="#">
+        <i class="bi bi-currency-bitcoin"></i><span class="gold">Bit</span>Verse
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link text-white active" href="#">Start</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link text-white" href="#products">Products</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link text-white" href="#about">About us</a>
+          </li>
+          <li class="d-flex align-items-center mt-2 mt-lg-0 mx-lg-2">
+            <a href="#" class="icon-link text-white">
+              <i class="bi bi-facebook fa-lg me-2"></i>
+            </a>
+            <a href="#" class="icon-link text-white">
+              <i class="bi bi-twitter fa-lg mx-2"></i>
+            </a>
+            <a href="#" class="icon-link text-white">
+              <i class="bi bi-instagram fa-lg mx-2"></i>
+            </a>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="assets/video1.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+      <h1>Wanna get rich AF?</h1>
+      <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Contact us
+      </button>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <h2 class="gold">We make you crazy rich (trust me bro, NO scam!)</h2>
+    <p class="my-3">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem eligendi velit praesentium vitae, quidem nihil
+      ipsam, sapiente esse, ullam odit cupiditate laudantium tenetur quam quibusdam eveniet inventore mollitia quae
+      suscipit nam itaque. Ullam atque, aliquid doloribus ad repellendus corrupti minus quisquam itaque illo sint vero
+      sequi. Veritatis nam velit illum.
+    </p>
+  </div>
+
+  <div id="products" class="container my-5">
+    <h2 class="gold">Our trustworthy high quality services</h2>
+    <p class="my-3">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem omnis quis, error magni, cupiditate dolorem nam
+      pariatur eaque, consequuntur cumque veritatis quidem. Inventore tempore, aut cupiditate cum doloribus obcaecati
+      quia. Mollitia suscipit sunt officia provident, corporis cumque amet possimus ratione sint facilis ipsum
+      aspernatur libero omnis! Facere, libero? Rem nihil maxime aspernatur, temporibus sit a nisi, quam, incidunt
+      laborum numquam esse! Sit minima illo eum exercitationem beatae ipsam deserunt quam cumque sint aspernatur
+      praesentium natus mollitia maxime voluptate voluptates, minus a tempora. Consectetur illo deserunt explicabo
+      voluptas, quos sequi ipsum laboriosam doloremque dolorem maxime fugit nemo laborum, architecto modi perferendis?
+    </p>
+  </div>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide mx-auto" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/pic1b.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Live in paradise!</h5>
+          <p>Tired of the city? Let our experts take care of your cash and travel the world!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/pic2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Drive the fastest cars!</h5>
+          <p>Life will be like Need for Speed with an infinite money cheat-code. Flex on the haters.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/pic5b.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ugly and retarded?</h5>
+          <p>No promlem! Make any girl INSTANTLY fall in love with you!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/pic7b.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Big Baller</h5>
+          <p>Be the successfull alpha-male entrepreneur you always wanted to be!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="about" class="container my-5">
+    <h2 class="gold">Our Team</h2>
+    <p class="my-3">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatum earum laudantium consequatur quae,
+      numquam eius ut delectus necessitatibus! Mollitia adipisci, a nulla optio doloribus ab quis autem provident
+      voluptate, obcaecati quaerat! Culpa esse, eaque, quis incidunt assumenda reprehenderit saepe deserunt laboriosam
+      aliquid odit porro. Enim harum vero velit itaque.
+    </p>
+
+    <div class="my-5">
+      <div class="text-center">
+        <img src="assets/pic10b.jpg" class="about-image float-lg-start mx-auto mx-lg-5" alt="">
+      </div>
+      <div class="p-lg-5">
+        <h3>Jake <span class="gold">Gold</span>berg</h3>
+        <p class="my-3">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis eligendi qui fugit in ipsum. Aperiam
+          inventore, accusantium unde iste excepturi nam dicta enim facilis illo dignissimos quis vitae a quas iusto
+          perferendis ipsa error officia! Totam, accusamus iusto delectus fugit quasi nisi aperiam? Beatae cupiditate
+          dolores doloribus nulla quos pariatur!
+        </p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="my-5">
+      <div class="text-center">
+        <img src="assets/pic9.jpg" class="about-image float-lg-end mx-auto mx-lg-5" alt="">
+      </div>
+      <div class="p-lg-5">
+        <h3>Frank</h3>
+        <p class="my-3">
+          He REALLY knows his shit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptatibus dignissimos sed cumque nemo in
+          repellat amet qui maiores placeat unde totam porro rerum earum distinctio sapiente velit aut, voluptatum dicta
+          facilis hic impedit consequuntur necessitatibus similique! Enim praesentium ab fuga asperiores. Delectus
+          architecto, ad accusamus rem iste necessitatibus corporis?
+        </p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="my-5">
+      <div class="text-center">
+        <img src="assets/pic8.jpg" class="about-image float-lg-start mx-auto mx-lg-5" alt="">
+      </div>
+      <div class="p-lg-5">
+        <h3>Bogdanoff-Twins</h3>
+        <p class="my-3">
+          They are direct descendants of the ancient royal bloodline, play the crypto market like puppet masters, have
+          immense political influence worldwide, rule France with an iron fist, have direct contact to extraterrestrial
+          life and psychic powers. You don't want to mess with those guys.
+        </p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <div class="footer py-5">&copy; 2022 <span class="gold">Bit</span>Verse</div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-4 bg-cover">
+                <img src="assets/pic12b.jpg" class="form-pic" alt="...">
+              </div>
+              <div class="col-lg-8">
+                <form action="" class="row p-lg-5 gy-3">
+                  <div class="col-12">
+                    <h1>Get in touch</h1>
+                  </div>
+                  <div class="col-lg-6">
+                    <label for="exampleFormControlInput1" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John">
+                  </div>
+                  <div class="col-lg-6">
+                    <label for="exampleFormControlInput1" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dorian">
+                  </div>
+                  <div class="col-lg-6">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                      placeholder="johndorian@gmail.com">
+                  </div>
+                  <div class="col-lg-6">
+                    <label for="exampleFormControlInput1" class="form-label">Password</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="starwars123">
+                  </div>
+                  <div class="col-12">
+                    <label for="message" class="form-lable">Message</label>
+                    <textarea name="" id="" cols="30" rows="4" class="form-control"
+                      placeholder="Wow, love you guys!"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="button" class="btn btn-dark"> Submit</button>
+                    <button type="button" class="btn btn-secondary"> Close</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
